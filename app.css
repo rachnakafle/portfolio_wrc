@@ -1,0 +1,273 @@
+:root{
+    --font1 : 'Bebas Neue', cursive; 
+}
+ 
+*{
+    margin: 0; 
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e8290b;
+}
+
+#navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #222222;
+    /* trbl */
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    letter-spacing: 6px;
+    font-family: var(--font1); 
+}
+
+.navbar-links{
+    width: 40%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link{
+    font-size: 24px;
+    font-family: var(--font1);
+}
+
+#entry{
+    color: #ffffff;
+    height: 80vh;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 150px;
+    text-align: center;
+}
+ 
+.entry-text{
+    margin-top: 80px;
+    font-size: 70px;
+    letter-spacing: 3px;
+    font-family: var(--font1);
+}
+
+ /* .entry-description {
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+  }  */
+
+.red-outlined-btn{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #e8290b;
+    outline: 1px solid #fff;
+    border: none;
+    outline-offset: -5px;
+    padding: 8px;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+
+.red-outlined-btn:hover{
+    background-color: #fff;
+    color: #e8290b;
+    transition: all .2s linear;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+    text-align: center;
+}
+
+.section-subtitle{
+    font-size: 14px;
+    color: #e8290b;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+
+.section-header{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: var(--font1);
+}
+
+.about-description {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+#blog{
+    background-color: #222;
+    padding: 150px;
+    color: #fff;
+    text-align: center;
+} 
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.blog-image{
+    width: 40%;
+}
+
+.blog-info{
+    width: 50%;
+}
+
+.blog-reverse{
+    flex-direction: row-reverse; 
+}
+
+.blogs{
+    margin-top: 50px;
+}
+
+.blog-header{
+    font-size: 40px;
+    font-family: var(--font1);
+    letter-spacing: 2px;
+}
+
+.blog-description{
+    margin-top: 15px;
+}
+
+.blog-image {
+    width: 40%;
+}
+
+.blog-info {
+    width: 50%;
+}
+
+#projects{
+    text-align: center;
+    padding: 60px 120px;
+    padding-top: 60px;
+}
+
+.project-list{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.project{
+    text-align: start;
+    /* width: 23%; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0.8px solid #22222222;
+}
+
+.project-info{
+    padding: 20px;
+}
+
+.testimonial-card{
+    position: relative;
+    box-shadow: 0px 20px 40px #0000000d;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 80%;
+    margin: auto;
+    text-align: center; 
+    padding: 60px 120px; 
+    z-index: 2; 
+    margin-top: 40px;
+}
+
+#testimonial{
+    text-align: center;
+    padding: 120px;
+}
+
+.testimonial-avatar{
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+} 
+
+.testimonial-description {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.testimonial-name {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#contact{
+    margin-top: -300px;
+    padding-top: 250px 60px 60px 60px;
+    background-color: #222;
+    padding: 250px 120px 60px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+label{
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form{
+    width: 50%;
+    margin: auto
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.heart{
+    color: #e8290b;
+    font-size: 18px;
+}
